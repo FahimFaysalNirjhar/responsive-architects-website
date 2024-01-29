@@ -26,6 +26,8 @@
     padding: 20px 25px;
     margin-top: 30px;
     margin-bottom: 50px;
+    color: #fff;
+    font-size: 1.25rem;
 }
 
 /* header related styles */
@@ -38,7 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    padding: 10px 130px;
 }
 
 nav ul {
@@ -83,15 +85,60 @@ nav li a {
     margin: 5px;
 }
 
+/* main related styles */
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+
+}
+
+/* feature related styles */
+.feature-container {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* .feature-img-container img {
+    width: 100%;
+} */
+
+.feature-content .website-description {
+    max-width: 540px;
+    text-align: left;
+}
+
+
+
+
+
 @media screen and (max-width:992px) {
-    nav{
+
+    nav,
+    .feature-container {
         flex-direction: column;
     }
-    .banner-container, nav {
+
+    .banner-container,
+    .feature-content,
+    nav {
         padding: 20px;
     }
-    nav ul{
+
+    nav ul {
         gap: 20px;
         padding: 0;
+    }
+
+    .feature-img-container {
+        grid-template-columns: 1fr;
     }
 }
