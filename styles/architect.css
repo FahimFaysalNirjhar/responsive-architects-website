@@ -97,7 +97,7 @@ main {
     display: flex;
     gap: 80px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -137,7 +137,6 @@ main {
     }
 
     .banner-container,
-    .feature-content,
     nav {
         padding: 20px;
     }
@@ -150,4 +149,11 @@ main {
     .feature-img-container {
         grid-template-columns: 1fr;
     }
+
+    .feature-img-container img {
+    width: 100%;
+}
+.feature-container, .feature-content{
+    margin: 20px;
+}
 }
