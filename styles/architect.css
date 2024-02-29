@@ -28,6 +28,7 @@
     margin-bottom: 50px;
     color: #fff;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 /* header related styles */
@@ -126,6 +127,12 @@ main {
     color: #FF900E;
     font-weight: 700;
 }
+
+
+
+
+
+
 
 
 
